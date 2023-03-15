@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi curriculum vitae</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css"/>
+    
+
+</head>
+<body>
+
+    <img src="C:\Users\Usuario\Pictures\foto yani.jpg" alt="mi foto de perfil" width="150" height="225"/>
+    <h2>Yanina Benitez</h2>
+
+    <p>Dirección:AV. Siempre viva 123</p>
+    <p>Telefono:5544-6927-001</p>
+
+<br>
+
+</div>
+
+<fieldset>
+    <legend>Datos Generales</legend>
+    <ul>
+        <li>Fecha de Nacimiento:06/11/1996</li>
+        <li>DNI:3912348017</li>
+        <li>Nacionalidad:ARGENTINA</li>
+        <li>Email:Yanimanson@fail.com</li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>Formación Academica</legend>
+    <ol>
+        <li>Secundario:INSTITUTO MARIANO MORENO</li>
+        <li>Facultad UTN:Fundamentos de la Programació</li>
+    </ol>
+</fieldset>
+<fieldset>
+    <legend>Experiencia Laboral</legend>
+    <ul>
+        <li>HTML Y CSS</li>
+        <li>JAVASCRIP</li>
+        <li>WORD</li>
+        <li>EXCEL</li>
+
+    </ul>
+</fieldset>
+<script src="CSS/JS/fuction.js" ></script>
+<button onclick="mostrarfechahora()">mostrar fecha y hora</button>
+<p id="fecha-hora"></p>
+</body>
+</html>
